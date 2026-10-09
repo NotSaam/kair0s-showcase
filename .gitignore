@@ -1,0 +1,8 @@
+# Escaparate: solo README, LICENSE, docs/ y assets/. Nada de código ni material de trabajo.
+_work/
+*.py
+*.pyc
+__pycache__/
+Thumbs.db
+desktop.ini
+.DS_Store
