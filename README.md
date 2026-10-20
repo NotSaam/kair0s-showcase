@@ -12,8 +12,8 @@
 </p>
 
 <p align="center">
-  Diseñado y desarrollado por <strong>Samu (FLK0S)</strong> en unos cuatro meses: app web instalable, dos servicios de datos, sistema de diseño propio y arte 3D.<br>
-  540 commits y más de 4.500 tests automatizados.
+  Diseñado y desarrollado por <strong>Samu (FLK0S)</strong> en algo más de cuatro meses: app web instalable, dos servicios de datos, sistema de diseño propio y arte 3D.<br>
+  561 commits y más de 4.800 tests automatizados.
 </p>
 
 <p align="center">
@@ -251,7 +251,7 @@ Desarrollado por Samu (FLK0S) entre junio y octubre de 2026. Los hitos principal
 | Finales de junio y julio | Zonas de velocidad, compatibilidad con iPhone, minutos efectivos y carga derivada. Rediseño del inicio, la analítica y la ficha 360 tras las primeras rondas de feedback de cuerpo técnico. |
 | Agosto | Primer despliegue en producción. La app se puede instalar como PWA. |
 | Septiembre | Web pública y base de calidad (tests en CI, copias de la base de datos). Invitaciones, entrenamientos y asistencia. Primeros pasos y exportación de datos. Cuenta multi-club, partidos completos y club demo. Importador GPS de varios fabricantes. Sistema de diseño v2 y rediseño de toda la app. |
-| Octubre | Landing con arte 3D en Blender. Auditoría completa y QA en producción. Logo «Cero de medio campo». Experiencia táctil en tablet y móvil. Informe del partido en PDF. Plantilla femenina o masculina. Recuperación de contraseña por correo. |
+| Octubre | Landing con arte 3D en Blender. Auditoría completa y QA en producción. Logo «Cero de medio campo». Experiencia táctil en tablet y móvil. Informe del partido en PDF. Plantilla femenina o masculina. Recuperación de contraseña por correo y correos con la marca. Página de precio con un solo plan con todo incluido y solicitud de prueba de 60 días. |
 
 La historia completa, con fechas, está en **[docs/historia.md](docs/historia.md)**.
 
@@ -259,9 +259,9 @@ La historia completa, con fechas, está en **[docs/historia.md](docs/historia.md
 
 | Cifra | Valor |
 |---|---|
-| **Periodo** | 7 jun – 9 oct 2026, unos 4 meses |
-| **Commits** | 540 |
-| **Tests automatizados** | Más de 4.500: más de 4.200 de la web y 330 de los servicios Python |
+| **Periodo** | 7 jun – 20 oct 2026, algo más de 4 meses |
+| **Commits** | 561 |
+| **Tests automatizados** | Más de 4.800: 4.509 de la web y 330 de los servicios Python |
 | **Pruebas de extremo a extremo** | 5 suites de Playwright; en la CI corren las que no necesitan cuenta, en Chromium, y la de iPhone, en WebKit |
 | **Permisos y aislamiento entre clubes** | Más de 680 comprobaciones en 12 scripts de prueba de la base de datos |
 | **Pantallas** | 59: 47 de la app, 5 de la web pública y 7 de acceso |
@@ -285,7 +285,7 @@ Diseñado y desarrollado por **Samu · FLK0S**.
 
 Principles: each club's data is isolated at the database level, hosting is in the EU, the numbers are descriptive rather than predictive, and the app is built mobile and tablet first.
 
-Built by Samu (FLK0S) between June and October 2026: 540 commits, 4,500+ automated tests, 59 screens. Stack: Next.js, TypeScript, Supabase/Postgres with row-level security, Python/FastAPI services, ffmpeg, Docker, and Blender for the 3D artwork of the public site. All screenshots use sample data from a fictional club.
+Built by Samu (FLK0S) between June and October 2026: 561 commits, 4,800+ automated tests, 59 screens. One plan with everything included, and a free 60-day guided trial. Stack: Next.js, TypeScript, Supabase/Postgres with row-level security, Python/FastAPI services, ffmpeg, Docker, and Blender for the 3D artwork of the public site. All screenshots use sample data from a fictional club.
 
 This repository is a showcase only and contains no source code.
 

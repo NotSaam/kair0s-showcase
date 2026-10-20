@@ -12,7 +12,7 @@
 
 KAIR0S es una plataforma web y PWA para cuerpos técnicos de fútbol. Junta en una sola app la carga de entrenamiento (RPE, GPS, wellness y asistencia), los partidos, la plantilla y el análisis de vídeo.
 
-Samu (FLK0S) la ha diseñado y desarrollado entre junio y octubre de 2026: 540 commits y más de 4.500 tests automatizados.
+Samu (FLK0S) la ha diseñado y desarrollado entre junio y octubre de 2026: 561 commits y más de 4.800 tests automatizados.
 
 La pensó para el día a día real: las jugadoras y jugadores usan el móvil y el staff usa el iPad. Cada club tiene sus datos aislados, y todo está alojado en la Unión Europea.
 
@@ -63,6 +63,9 @@ La pensó para el día a día real: las jugadoras y jugadores usan el móvil y e
 | 7 oct | Plantilla femenina o masculina por club | Cada club elige cómo se nombra su plantilla y toda la app concuerda: jugadora o jugador, lesionada o lesionado… |
 | 7 oct | Escenas de la landing en alta resolución y protección del acceso | Imagen más nítida en pantallas grandes, y protección del inicio de sesión, el registro y la recuperación de contraseña frente a intentos repetidos. |
 | 8–9 oct | Recuperación de contraseña por correo y contacto único | Desde el inicio de sesión se puede pedir una contraseña nueva por correo. Hay un solo correo de contacto: info@kair0s.es. |
+| 9 oct | Correos con la marca | Los correos de la cuenta (como el de recuperar la contraseña) llevan el logo y los colores de KAIR0S, se leen bien también en Outlook y en modo oscuro y salen desde info@kair0s.es. |
+| 9 oct | Contadores de este escaparate | Las visitas y los clics de este repositorio se cuentan en kair0s.es, sin cookies y sin guardar IPs. |
+| 14–20 oct | Página de precio con un solo plan | La web pública enseña un solo plan con todo incluido (carga, GPS y vídeo), lo que cuesta añadir más equipos y la solicitud de una prueba guiada de 60 días. La privacidad cubre también los mensajes por redes, correo y llamadas. |
 
 ## Ritmo de trabajo
 
@@ -74,16 +77,16 @@ Commits por mes en la rama principal:
 | Julio 2026 | 19 | `▇` |
 | Agosto 2026 | 6 | `▏` |
 | Septiembre 2026 | 253 | `▇▇▇▇▇▇▇▇▇▇` |
-| Octubre 2026 (hasta el 9) | 214 | `▇▇▇▇▇▇▇▇▇` |
-| **Total** | **540** | |
+| Octubre 2026 (hasta el 20) | 235 | `▇▇▇▇▇▇▇▇▇` |
+| **Total** | **561** | |
 
 ## Cifras
 
 | Cifra | Valor | Fuente |
 |---|---|---|
-| Commits | 540 (jun 48 · jul 19 · ago 6 · sep 253 · oct 214) | Historial de Git de la rama principal |
-| Periodo de desarrollo | 7 jun – 9 oct 2026, unos 4 meses | Primer y último commit |
-| Tests de la web | Más de 4.200 | Ejecución de Vitest del 9 oct 2026, 254 ficheros |
+| Commits | 561 (jun 48 · jul 19 · ago 6 · sep 253 · oct 235) | Historial de Git de la rama principal |
+| Periodo de desarrollo | 7 jun – 20 oct 2026, algo más de 4 meses | Primer y último commit |
+| Tests de la web | 4.509 | Ejecución de Vitest del 20 oct 2026, 262 ficheros |
 | Tests de los servicios Python | 330 (305 de importación GPS y 25 de vídeo) | Recuento de pytest |
 | Pruebas de extremo a extremo | 5 suites de Playwright; en la CI corren las que no necesitan cuenta, en Chromium, y la de iPhone, en WebKit | Playwright en GitHub Actions (rama principal y pull requests) |
 | Pruebas de permisos y aislamiento entre clubes | Más de 680 comprobaciones en 12 scripts | Resultados registrados de las pruebas de la base de datos |
